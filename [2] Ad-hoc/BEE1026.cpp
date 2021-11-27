@@ -9,7 +9,7 @@ unsigned int mofiz(unsigned int a, unsigned int b) {
 int main() {
     unsigned int x, y;
     
-    while(cin >> x >> y) {
+    while (cin >> x >> y) {
         cout << mofiz(x, y) << endl;
     }
 
