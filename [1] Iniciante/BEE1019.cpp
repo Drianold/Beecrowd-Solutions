@@ -12,5 +12,5 @@ int main() {
     m = int(n/60);
     n = n - m*60;
 
-    cout << h << ":" << m << ":" << n;
+    cout << h << ":" << m << ":" << n << endl;
 }

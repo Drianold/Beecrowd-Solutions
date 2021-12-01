@@ -7,6 +7,7 @@ int main() {
 
     cin >> n;
 
+    cout << n << endl;
     cout << int(n/100) << " nota(s) de R$ 100,00\n";
     resto = n - int(n/100)*100;
     cout << int(resto/50) << " nota(s) de R$ 50,00\n";
