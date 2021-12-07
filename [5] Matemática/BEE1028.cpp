@@ -4,16 +4,15 @@ using namespace std;
 
 int tam_max_pilha(int f1, int f2) {
     int i = f1, max;
-    
+
     if (i > f2)
         i = f2;
 
-    while (i > 1) {
-        if (f1 % i == 0 && f2 % i == 0) {
-            return i;
-        }
+    while (f1 % i != 0 || f2 % i != 0) {
         i--;
     }
+
+    return i;
 }
 
 int main() {
