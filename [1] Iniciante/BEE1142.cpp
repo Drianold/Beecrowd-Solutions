@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    int n, alc = 0, gas = 0, die = 0;
+    int n;
 
     cin >> n;
 
